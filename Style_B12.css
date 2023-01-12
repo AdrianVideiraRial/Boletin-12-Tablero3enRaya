@@ -1,0 +1,163 @@
+* {
+   padding: 0%;
+   margin: 0%
+}
+
+
+html {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+   margin: 1%;
+   font-size: 20px;
+}
+
+section {
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: stretch;
+   margin: 20px;
+   font-size: 12px;
+
+}
+
+article {
+   flex: 2;
+   height: 90vh;
+   padding: 1em;
+   margin: 2rem;
+   background-color: rgb(228, 217, 202);
+   text-align: center;
+   color: rgb(100, 102, 102);
+
+}
+
+.Tablero {
+   display: grid;
+   height: auto;
+   width: auto;
+   grid-template-columns: 30% 30% 30%;
+   grid-template-rows: 30% 30% 30%;
+   justify-content: center;
+   align-content: center;
+   padding: 1rem;
+   margin-top: 1rem;
+
+
+}
+
+h1 {
+   padding: 1rem;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+   border-top: 2px solid rgb(114, 91, 91);
+
+}
+
+.Encabezado {
+   padding: 1rem;
+   margin-bottom: 2rem;
+   padding-bottom: 3rem;
+   border-bottom: solid 5px rgb(114, 91, 91);
+
+}
+
+p {
+   margin: 3px;
+}
+
+.Tablero div {
+   padding: 40px;
+   text-align: center;
+}
+
+.item1 {
+   border-right: 5px solid rgb(100, 102, 102);
+   border-bottom: 5px solid rgb(100, 102, 102);
+   ;
+}
+
+.item2 {
+   border-right: 5px solid rgb(100, 102, 102);
+   ;
+   border-bottom: 5px solid rgb(100, 102, 102);
+   ;
+}
+
+.item3 {
+   border-bottom: 5px solid rgb(100, 102, 102);
+   ;
+}
+
+.item4 {
+   border-right: 5px solid rgb(100, 102, 102);
+   ;
+   border-bottom: 5px solid rgb(100, 102, 102);
+   ;
+}
+
+.item5 {
+   border-right: 5px solid rgb(100, 102, 102);
+   ;
+   border-bottom: 5px solid rgb(100, 102, 102);
+   ;
+}
+
+.item6 {
+   border-bottom: 5px solid rgb(100, 102, 102);
+}
+
+.item7 {
+   border-right: 5px solid rgb(100, 102, 102);
+}
+
+.item8 {
+   border-right: 5px solid rgb(100, 102, 102);
+}
+
+#tabla {
+   border-collapse: collapse;
+   text-align: center;
+   padding: 1rem;
+   margin: auto;
+   margin-top: 0.25rem;
+   font-size: 0.8rem;
+   margin-bottom: 2rem;
+}
+
+
+#fichas {
+   margin-top: 1rem;
+   font-size: 1rem;
+
+}
+
+tr th {
+   padding: 5px;
+   font-size: 0.75rem;
+   border-bottom: 1px solid white;
+
+
+}
+
+tr td {
+   padding: 5px;
+   font-size: 0.75rem;
+   border-bottom: 1px solid white;
+
+}
+
+tr:nth-child(even) {
+   background-color: rgb(201, 191, 191);
+}
+
+.pie {
+
+   padding: 1px;
+   margin: auto;
+
+}
