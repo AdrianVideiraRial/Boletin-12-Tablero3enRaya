@@ -161,3 +161,9 @@ tr:nth-child(even) {
    margin: auto;
 
 }
+
+.Imagen1 img{  
+   background-position: center bottom;
+   height: 20rem;
+   margin-top: 1rem;  
+}
