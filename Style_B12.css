@@ -172,3 +172,10 @@ tr:nth-child(even) {
    height: 20rem;
    margin-top: 1rem;  
 }
+
+.Imagen3{
+   background-position: center bottom;
+   height: 15rem;
+   margin-top: 1rem;
+   
+}
