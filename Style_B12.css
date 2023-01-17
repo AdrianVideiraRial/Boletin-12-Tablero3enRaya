@@ -11,6 +11,11 @@ html {
 body {
    margin: 1%;
    font-size: 20px;
+   background-image: url(./img/Fondo.jpeg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 section {
