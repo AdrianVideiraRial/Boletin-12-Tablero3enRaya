@@ -37,13 +37,14 @@ article {
    margin: 2rem;
    background-color: rgb(228, 217, 202);
    text-align: center;
+   align-items: center;
    color: rgb(100, 102, 102);
 
 }
 
 .Tablero {
    display: grid;
-   height: auto;
+   height: 30vh;
    width: auto;
    grid-template-columns: 30% 30% 30%;
    grid-template-rows: 30% 30% 30%;
