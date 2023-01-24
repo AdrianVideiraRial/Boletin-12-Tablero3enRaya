@@ -43,7 +43,7 @@ article {
 
 .Tablero {
    display: grid;
-   height: auto;
+   height: 35vh;
    width: auto;
    grid-template-columns: 30% 30% 30%;
    grid-template-rows: 30% 30% 30%;
@@ -81,47 +81,75 @@ p {
 }
 
 .item1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-right: 5px solid rgb(100, 102, 102);
    border-bottom: 5px solid rgb(100, 102, 102);
-   ;
+ 
+  
 }
 
 .item2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-right: 5px solid rgb(100, 102, 102);
-   ;
    border-bottom: 5px solid rgb(100, 102, 102);
-   ;
+   
 }
 
 .item3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-bottom: 5px solid rgb(100, 102, 102);
-   ;
+   
 }
 
 .item4 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-right: 5px solid rgb(100, 102, 102);
-   ;
    border-bottom: 5px solid rgb(100, 102, 102);
-   ;
+   
 }
 
 .item5 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-right: 5px solid rgb(100, 102, 102);
-   ;
    border-bottom: 5px solid rgb(100, 102, 102);
-   ;
+   
 }
 
 .item6 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-bottom: 5px solid rgb(100, 102, 102);
 }
 
 .item7 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-right: 5px solid rgb(100, 102, 102);
 }
 
 .item8 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-right: 5px solid rgb(100, 102, 102);
+}
+
+.tiem9{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 #tabla {
