@@ -81,11 +81,13 @@ p {
    text-align: center;
 }
 
+
 .item1 {
    border-right: 5px solid rgb(100, 102, 102);
    border-bottom: 5px solid rgb(100, 102, 102);
    ;
 }
+
 
 .item2 {
    border-right: 5px solid rgb(100, 102, 102);
